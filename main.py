@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 face_classifier = cv2.CascadeClassifier("face.xml") #Load cascade model. This includes informations about positive and negative images to detect image
 
